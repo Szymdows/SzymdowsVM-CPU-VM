@@ -1,4 +1,4 @@
-# Szymdows VM – CPU-VM
+# Szymdows VM – CPU-VM 1.0
 
 ## Overview
 
