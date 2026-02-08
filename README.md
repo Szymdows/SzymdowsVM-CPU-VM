@@ -70,6 +70,7 @@ The emulator currently supports the following instructions:
 ## CPU Architecture
 
 - **Registers:** AX, BX, CX, DX (general purpose); SP (stack pointer); BP (base pointer); SI/DI (index registers)
+  - The virtual CPU is 16-bit–inspired, using classic x86-style registers. Internally, registers use unbounded integers, with 16-bit signed overflow detection for educational clarity.
 - **Instruction Pointer (IP):** Tracks the current instruction
 - **Flags:** Z (zero), S (sign), O (overflow), E (error/halt)
 - **Memory:** 4 KB RAM + video memory (80×25 characters)
