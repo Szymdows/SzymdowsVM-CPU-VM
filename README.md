@@ -1,8 +1,8 @@
-# Szymdows VM – CPU-VM 1.0
+# Szymdows VM – CPU-VM 1.2
 
 ## Overview
 
-**Szymdows VM – CPU-VM Extended** is a **Python-based virtual machine and CPU emulator** with an expanded instruction set, enhanced stack operations, advanced control flow, and DOS-style text display. Users can **load, step through, and run assembly code**, view registers and flags, and interact with a classic 80×25 character text display via a **PyQt6 GUI**.
+**Szymdows VM – CPU-VM 1.2** is a **Python-based virtual machine and CPU emulator** with an expanded instruction set, enhanced stack operations, advanced control flow, and DOS-style text display. Users can **load, step through, and run assembly code**, view registers and flags, and interact with a classic 80×25 character text display via a **PyQt6 GUI**.
 
 This VM is designed to be **educational, extendable, and modular**, ideal for learning CPU architecture, low-level programming, and assembly language concepts.
 
