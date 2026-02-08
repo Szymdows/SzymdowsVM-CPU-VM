@@ -98,3 +98,65 @@ The emulator currently supports the following instructions:
 2. Install PyQt6:
    ```bash
    pip install PyQt6
+3. Run the emulator:
+   ```bash
+   python main.py
+4. Use the GUI to load an assembly file and execute it.
+
+## Example Programs
+
+- Example assembly programs are provided in the folder:
+   ```bash
+   ExamplePrograms/
+- These demonstrate basic CPU operations, screen output, and control flow.
+
+## How to Contribute
+
+- Contributions are welcome.
+
+### Setup
+
+- Fork the repository or download the source.
+- Install:
+  - Python 3.10+
+  - PyQt6
+
+### Development Guidelines
+
+- Study the `VirtualCPU` class, registers, RAM, and flags.
+- Understand the current instruction set.
+- Add new instructions inside the `step()` function.
+- Update `_update_flags()` when required.
+- Improve the GUI (screen rendering, debugger, source viewer).
+
+### Contribution Rules
+
+- Follow **PEP8** coding style.
+- Comment code clearly.
+- Test new instructions using small assembly programs.
+- Preserve existing functionality.
+- Submit a pull request with a clear description of changes.
+
+## License
+
+This project is licensed under the **MIT License**, allowing:
+- Free use, modification, and distribution.
+- Community contributions.
+- Forking and commercial use.
+
+## Future Plans
+
+- Expand instruction set with advanced math and logic
+- Memory-mapped I/O for simulated devices
+- Keyboard input and real-time interaction
+- Graphics modes beyond text
+- Advanced debugging tools:
+  - Breakpoints
+  - Step-back execution
+  - Watchpoints
+- Save/load RAM state
+- Multiple ISA versions with backward compatibility
+
+## Notes
+
+This project is intended as an educational emulator and a foundation for experimenting with virtual computer systems and CPU design.
